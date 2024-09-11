@@ -1,0 +1,449 @@
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1{
+    width: 350px;
+    height: 700px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+
+
+    input{
+        width: 310px;
+        height: 70px;
+        margin-inline: 20px;
+        margin-bottom: 60px;
+        font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+       color: rgb(40, 40, 239);
+       font-size: 20px;
+    border-radius: 10px;
+        background-color: rgb(229, 238, 238);
+        border: 1px solid rgb(207, 207, 241);
+    }
+    
+
+}
+.card2{
+    width: 350px;
+    height: 700px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+
+
+    input{
+        width: 310px;
+        height: 70px;
+        margin-inline: 20px;
+        margin-bottom: 60px;
+        font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+       color: rgb(40, 40, 239);
+       font-size: 20px;
+    border-radius: 10px;
+        background-color: rgb(229, 238, 238);
+        border: 1px solid rgb(207, 207, 241);
+    }
+
+}
+.card3 {
+    width: 350px;
+    height: 700px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+
+    input{
+        width: 310px;
+        height: 70px;
+        margin-inline: 20px;
+        margin-bottom: 60px;
+        font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+       color: rgb(40, 40, 239);
+       font-size: 20px;
+    border-radius: 10px;
+        background-color: rgb(229, 238, 238);
+        border: 1px solid rgb(207, 207, 241);
+    }
+}
+
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px;
+    height: 240px;
+
+ svg{
+    height: 100px;
+    width: 100px;
+}
+
+ h2{
+    font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+ p {
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: gray;
+  margin: 0px;
+  padding: 0px;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 45px;
+    margin: 0px;
+  padding: 0px;
+}
+ span{
+    font-size: 50px;
+}
+ h4{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: gray;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+  }
+
+.c2{
+    
+height: 320px;
+width: 310px;
+margin: 20px;
+margin-bottom: 15px;
+margin-bottom: none;
+display: flex;
+flex-direction: column;
+justify-content: left;
+    
+ svg{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    position: relative;
+    top: 12px;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+ }
+ .card1:active{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(55, 102, 242);
+    .c1{
+        width: 250px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    }
+    .c2 h2{
+        color: white;
+    }
+    .c1 p {
+        color: white;
+    }
+    .c1 h2 {
+        color: white;
+    }
+    .c1 h3 {
+        color: white;
+    }
+    .c1 h4 {
+        color: white;
+    }
+    .c1 svg{
+        stroke: white;
+        fill: white;
+    }
+    input{
+        color: white;
+        background-color: rgba(255, 255, 255, 0.342);
+    }
+    
+}
+ .card2:active{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(55, 102, 242);
+    .c1{
+        width: 250px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    }
+    .c2 h2{
+        color: white;
+    }
+    .c1 p {
+        color: white;
+    }
+    .c1 h2 {
+        color: white;
+    }
+    .c1 h3 {
+        color: white;
+    }
+    .c1 h4 {
+        color: white;
+    }
+    .c1 svg{
+        stroke: white;
+        fill: white;
+    }
+    input{
+        color: white;
+        background-color: rgba(255, 255, 255, 0.342);
+    }
+    
+}
+ .card3:active{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(55, 102, 242);
+    .c1{
+        width: 250px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    }
+    .c2 h2{
+        color: white;
+    }
+    .c1 p {
+        color: white;
+    }
+    .c1 h2 {
+        color: white;
+    }
+    .c1 h3 {
+        color: white;
+    }
+    .c1 h4 {
+        color: white;
+    }
+    .c1 svg{
+        stroke: white;
+        fill: white;
+    }
+    input{
+        color: white;
+        background-color: rgba(255, 255, 255, 0.342);
+    }
+    
+}
+
+ @media(min-width:768px){
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .c2{
+        margin-top: -15px;
+        margin-left: 60px;
+        h2{
+            font-size: 12px;
+            margin: 0px;
+            padding: 0px;
+        }
+        svg{
+            width: 20px;
+            margin: 0px;
+            margin-right: 10px;
+        }
+    }
+    .c1{
+        svg{
+            width:50px;
+            height: 50px;
+        }
+        h2{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 40px;
+        }
+        span{
+            font-size: 30px;
+        }
+        p{
+            font-size: 12px;
+        }
+        h4{
+            font-size: 15px;
+        }
+    }
+    .card1{
+        width: 350px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input{
+            height: 60px;
+            margin-bottom: 15px;
+        }
+    }
+    
+    .card2{
+        width: 350px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input{
+            height: 60px;
+            margin-bottom: 15px;
+        }
+    }
+    .card3{
+        width: 350px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input{
+            height: 60px;
+            margin-bottom: 15px;
+        }
+    }
+    .card1:hover{
+        cursor: pointer;
+        transition: 1s;
+        background-color: rgb(55, 102, 242);
+        .c1{
+            width: 250px;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+        }
+        .c2 h2{
+            color: white;
+        }
+        .c1 p {
+            color: white;
+        }
+        .c1 h2 {
+            color: white;
+        }
+        .c1 h3 {
+            color: white;
+        }
+        .c1 h4 {
+            color: white;
+        }
+        .c1 svg{
+            stroke: white;
+            fill: white;
+        }
+        input{
+            color: white;
+            background-color: rgba(255, 255, 255, 0.342);
+        }
+        transform: translateY(-30px); /* Eleva el div */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    .card2:hover{
+        cursor: pointer;
+        transition: 1s;
+        background-color: rgb(55, 102, 242);
+        .c1{
+            width: 250px;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+        }
+        .c2 h2{
+            color: white;
+        }
+        .c1 p {
+            color: white;
+        }
+        .c1 h2 {
+            color: white;
+        }
+        .c1 h3 {
+            color: white;
+        }
+        .c1 h4 {
+            color: white;
+        }
+        .c1 svg{
+            stroke: white;
+            fill: white;
+        }
+        input{
+            color: white;
+            background-color: rgba(255, 255, 255, 0.342);
+        }
+        transform: translateY(-30px); /* Eleva el div */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    .card3:hover{
+        cursor: pointer;
+        transition: 1s;
+        background-color: rgb(55, 102, 242);
+        .c1{
+            width: 250px;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+        }
+        .c2 h2{
+            color: white;
+        }
+        .c1 p {
+            color: white;
+        }
+        .c1 h2 {
+            color: white;
+        }
+        .c1 h3 {
+            color: white;
+        }
+        .c1 h4 {
+            color: white;
+        }
+        .c1 svg{
+            stroke: white;
+            fill: white;
+        }
+        input{
+            color: white;
+            background-color: rgba(255, 255, 255, 0.342);
+        }
+        transform: translateY(-30px); /* Eleva el div */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    
+ }
