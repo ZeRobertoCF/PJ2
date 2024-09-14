@@ -13,6 +13,7 @@
 }
 
 .grid-container {
+    justify-content: center;
     position: absolute;
     display: grid;
     gap: 10px;
@@ -699,6 +700,12 @@ margin: 5px;
     
 
 }
+.map1{
+    width: auto;
+    height: 280px;
+    position: absolute;
+    left: 10px;
+}
 .text-img1{
     display: none;
     justify-content: center;
@@ -710,7 +717,7 @@ margin: 5px;
     height: 160px;
     background-color: white;
     border-radius: 10px;
-    bottom: 60px;
+    bottom: 2000px;
     p{
         margin: 10px;
         text-align: center;
@@ -732,7 +739,8 @@ margin: 5px;
     height: 160px;
     background-color: white;
     border-radius: 10px;
-    bottom: 15px;
+    bottom: 1800px;
+    left:170px;
     p{
         margin: 10px;
         text-align: center;
@@ -754,7 +762,7 @@ margin: 5px;
     height: 160px;
     background-color: white;
     border-radius: 40px;
-    bottom: 10px;
+    bottom: 1700px;
     p{
         margin: 10px;
         text-align: center;
@@ -776,7 +784,7 @@ margin: 5px;
     height: 160px;
     background-color: white;
     border-radius: 40px;
-    bottom: -70px;
+    bottom: 1600px;
     left: 40px;
     p{
         margin: 10px;
@@ -799,8 +807,8 @@ margin: 5px;
     height: 160px;
     background-color: white;
     border-radius: 40px;
-    bottom: -33px;
-    left: 140px;
+    bottom: 1650px;
+    left: 150px;
     p{
         margin: 10px;
         text-align: center;
@@ -821,8 +829,8 @@ margin: 5px;
     height: 160px;
     background-color: white;
     border-radius: 40px;
-    bottom: 115px;
-    left: 5px;
+    bottom: 1940px;
+    left: 200px;
     p{
         margin: 10px;
         text-align: center;
@@ -1034,7 +1042,7 @@ margin: 5px;
         width: 300px;
         height: 150px;
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.429);
-        bottom: 400px;
+        bottom: 300px;
         right: 600px;
         p{
             font-size: 13px;
@@ -1060,8 +1068,7 @@ margin: 5px;
         flex-direction: column;
         background-color: #ffffff;
         margin-bottom: 200px;
-        bottom: 250px;
-        right: 80px;
+        bottom: 10px;
         border-radius: 10px;
         width: 300px;
         height: 150px;
@@ -1177,6 +1184,12 @@ margin: 5px;
             margin: 0px;
             padding: 0px;
         }
+    }
+
+    .map{
+        width: auto;
+        height: 600px;
+        position: absolute;
     }
     
     .log1{
