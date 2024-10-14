@@ -848,7 +848,7 @@ margin: 5px;
     
     
 .grid-container {
-    gap:30px;
+    gap:80px;
     grid-template-areas:
         "barra barra " 
         "pant1 pant2"
